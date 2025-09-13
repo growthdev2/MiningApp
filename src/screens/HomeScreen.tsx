@@ -444,7 +444,7 @@ const Page: React.FC = () => {
             style={styles.quickActionCard}
             onPress={() => navigation.navigate('Wallet')}
           >
-            <Icon name="wallet" size={28} color="#3B82F6" />
+            <Icon name="credit-card-multiple" size={28} color="#3B82F6" />
             <Text style={styles.quickActionText}>Wallet</Text>
           </TouchableOpacity>
         </View>
