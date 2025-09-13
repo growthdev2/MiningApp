@@ -310,7 +310,7 @@ const Page: React.FC = () => {
           >
             <View style={styles.balanceContent}>
               <View style={styles.balanceLeft}>
-                <Icon5 name="bitcoin" size={32} color="#F59E0B" />
+                <Icon5 name="bitcoin" size={32} color="#FFFFFF" />
                 <View style={styles.balanceTextContainer}>
                   {/* <Text style={styles.balanceLabel}>Total Balance</Text> */}
                   <Text style={styles.balanceAmount}>
