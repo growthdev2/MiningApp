@@ -322,6 +322,13 @@ const Page: React.FC = () => {
             </View>
           </LinearGradient>
         </TouchableOpacity>
+{/* Notification Banner (like circled section) */}
+<View style={styles.notificationBanner}>
+  <Icon name="volume-high" size={20} color="#22D3EE" style={{ marginRight: 8 }} />
+  <Text style={styles.notificationText} numberOfLines={1}>
+    *****2826 purchased 200 Gh/s power
+  </Text>
+</View>
 
         {/* Mining Power Section */}
         <View style={styles.miningSection}>
@@ -494,6 +501,22 @@ export default Page;
 
 // Styles
 const styles = StyleSheet.create({
+  notificationBanner: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#1F2937',
+    borderRadius: 12,
+    paddingVertical: 10,
+    paddingHorizontal: 16,
+    marginBottom: 16,
+  },
+  
+  notificationText: {
+    flex: 1,
+    color: '#fff',
+    fontSize: 14,
+  },
+  
   container: {
     flex: 1,
     backgroundColor: '#111827',
