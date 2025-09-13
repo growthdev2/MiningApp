@@ -366,12 +366,12 @@ const Page: React.FC = () => {
         {/* Quick Stats Cards */}
         <View style={styles.statsRow}>
           <View style={styles.statCard}>
-            <Icon name="wallet" size={26} color="#FFFFFF" />
+            <Icon name="credit-card-multiple" size={26} color="#FFFFFF" />
             <Text style={styles.statValue}>$0.00</Text>
             <Text style={styles.statLabel}>Wallet Balance</Text>
           </View>
           <View style={styles.statCard}>
-            <Icon name="account-group" size={26} color="#FFFFFF" />
+            <Icon name="account-heart" size={26} color="#FFFFFF" />
             <Text style={styles.statValue}>{user_referrals}</Text>
             <Text style={styles.statLabel}>Referrals</Text>
           </View>
